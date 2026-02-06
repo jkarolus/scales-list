@@ -79,7 +79,7 @@ const Index = () => {
           <main className="lg:col-span-3 space-y-6">
             <SearchBar value={searchQuery} onChange={setSearchQuery} />
 
-            <div className="space-y-4">
+            <div className="space-y-4 lg:max-h-[calc(100vh-13rem)] lg:overflow-y-auto lg:overscroll-contain lg:pr-2">
               {filteredQuestionnaires.length > 0 ? (
                 filteredQuestionnaires.map((questionnaire) => (
                   <QuestionnaireCard
