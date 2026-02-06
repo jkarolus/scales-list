@@ -646,7 +646,196 @@ export const questionnaires: Questionnaire[] = [
         url: "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.108.5807&rep=rep1&type=pdf"
       }
     ]
+  },
+  {
+    id: "43",
+    name: "Post-Study System Usability Questionnaire",
+    shortHandle: "PSSUQ",
+    description: "A post-study questionnaire for measuring user-perceived system usability across system usefulness, information quality, and interface quality.",
+    publicationYear: 1992,
+    authors: ["James R. Lewis"],
+    categories: ["Usability", "General Purpose", "Post-Study"],
+    references: [
+      {
+        label: "IBM Technical Report",
+        url: "https://www.researchgate.net/publication/228593520_Psychometric_Evaluation_of_the_PSSUQ_Using_Data_from_Five_Years_of_Usability_Studies"
+      }
+    ]
+  },
+  {
+    id: "44",
+    name: "Usability Metric for User Experience",
+    shortHandle: "UMUX",
+    description: "A concise four-item usability questionnaire developed as a practical alternative to longer post-study usability scales.",
+    publicationYear: 2010,
+    authors: ["William M. F. Finstad"],
+    categories: ["Usability", "General Purpose", "Post-Study"],
+    references: [
+      {
+        label: "Original Paper",
+        url: "https://doi.org/10.1177/154193121005401411"
+      }
+    ]
+  },
+  {
+    id: "45",
+    name: "UMUX-LITE",
+    shortHandle: "UMUX-LITE",
+    description: "A two-item ultra-short usability metric derived from UMUX and calibrated for benchmarking similarly to SUS.",
+    publicationYear: 2013,
+    authors: ["James R. Lewis", "Jeff Sauro"],
+    categories: ["Usability", "Task-Specific", "Post-Study"],
+    references: [
+      {
+        label: "Paper",
+        url: "https://measuringu.com/umux-lite/"
+      }
+    ]
+  },
+  {
+    id: "46",
+    name: "Standardized User Experience Percentile Rank Questionnaire",
+    shortHandle: "SUPR-Q",
+    description: "An eight-item standardized questionnaire for website user experience covering usability, trust, appearance, and loyalty.",
+    publicationYear: 2013,
+    authors: ["Jeff Sauro"],
+    categories: ["User Experience", "General Purpose", "Post-Study"],
+    references: [
+      {
+        label: "Overview",
+        url: "https://measuringu.com/suprq/"
+      }
+    ]
+  },
+  {
+    id: "47",
+    name: "User Experience Questionnaire - Short Version",
+    shortHandle: "UEQ-S",
+    description: "A short eight-item version of the UEQ that captures pragmatic and hedonic quality with less response effort.",
+    publicationYear: 2017,
+    authors: ["Martin Schrepp", "Andreas Hinderks", "Jörg Thomaschewski"],
+    categories: ["User Experience", "General Purpose", "Post-Study"],
+    references: [
+      {
+        label: "Paper",
+        url: "https://www.ueq-online.org/Material/UEQS-ResSci2017.pdf"
+      }
+    ]
+  },
+  {
+    id: "48",
+    name: "Unified Theory of Acceptance and Use of Technology Questionnaire",
+    shortHandle: "UTAUT",
+    description: "A model-based questionnaire to explain technology adoption using performance expectancy, effort expectancy, social influence, and facilitating conditions.",
+    publicationYear: 2003,
+    authors: ["Viswanath Venkatesh", "Michael G. Morris", "Gordon B. Davis", "Fred D. Davis"],
+    categories: ["Acceptance", "Technology", "Post-Study"],
+    references: [
+      {
+        label: "Original Paper",
+        url: "https://doi.org/10.2307/30036540"
+      }
+    ]
+  },
+  {
+    id: "49",
+    name: "Trust in Automation Scale",
+    shortHandle: "Jian Trust Scale",
+    description: "A widely cited scale for measuring users' trust toward automated systems and intelligent technologies.",
+    publicationYear: 2000,
+    authors: ["Jun Jian", "Ann M. Bisantz", "Colin G. Drury"],
+    categories: ["Technology Perception", "General Purpose", "Post-Study"],
+    references: [
+      {
+        label: "Paper",
+        url: "https://doi.org/10.1016/S1071-5819(99)00017-7"
+      }
+    ]
+  },
+  {
+    id: "50",
+    name: "Self-Assessment Manikin",
+    shortHandle: "SAM",
+    description: "A quick non-verbal pictorial assessment instrument for valence, arousal, and dominance often used in HCI affective evaluations.",
+    publicationYear: 1994,
+    authors: ["Margaret M. Bradley", "Peter J. Lang"],
+    categories: ["Affect", "Psychology", "Post-Task"],
+    references: [
+      {
+        label: "Paper",
+        url: "https://doi.org/10.1016/0005-7916(94)90063-9"
+      }
+    ]
+  },
+  {
+    id: "51",
+    name: "Baecke Habitual Physical Activity Questionnaire",
+    shortHandle: "BPAQ / BFQS",
+    description: "A short questionnaire for habitual physical activity in epidemiological and behavioral studies, covering work, sport, and leisure activity.",
+    publicationYear: 1982,
+    authors: ["J. A. H. Baecke", "J. Burema", "J. E. R. Frijters"],
+    categories: ["Physical Activity", "General Purpose", "Self-Report"],
+    references: [
+      {
+        label: "Original Paper",
+        url: "https://doi.org/10.1093/ajcn/36.5.936"
+      }
+    ]
+  },
+  {
+    id: "52",
+    name: "Borg Rating of Perceived Exertion Scale",
+    shortHandle: "Borg RPE",
+    description: "A widely used subjective exertion rating scale (e.g., 6-20 and CR10 variants) for tracking perceived physical effort during activity and exercise.",
+    publicationYear: 1982,
+    authors: ["Gunnar Borg"],
+    categories: ["Physical Activity", "Task-Specific", "Post-Task"],
+    references: [
+      {
+        label: "Book",
+        url: "https://psycnet.apa.org/record/1998-07101-000"
+      }
+    ]
+  },
+  {
+    id: "53",
+    name: "How I Use My Body: The Bodily Feedback Quality Scale",
+    shortHandle: "BFQS",
+    description: "A scale for assessing users’ perceived quality of bodily feedback when interacting with movement-based and physical-activity technologies.",
+    publicationYear: 2025,
+    authors: ["Bettina Eska", "Meagan B. Loerakker", "Jasmin Niess", "Paweł W. Woźniak"],
+    categories: ["Physical Activity", "User Experience", "Post-Study"],
+    references: [
+      {
+        label: "ACM Paper",
+        url: "https://dl.acm.org/doi/10.1145/3770657"
+      },
+      {
+        label: "DOI",
+        url: "https://doi.org/10.1145/3770657"
+      }
+    ]
+  },
+  {
+    id: "54",
+    name: "Chatbot Usability Scale (Multilanguage Validation)",
+    shortHandle: "CUS",
+    description: "A validated usability scale for conversational agents/chatbots, with confirmatory factor analysis across multiple languages.",
+    publicationYear: 2023,
+    authors: ["Simone Borsci", "Martin Schmettow", "Alessio Malizia", "Alan Chamberlain", "Frank van der Velde"],
+    categories: ["Usability", "Technology", "Post-Study"],
+    references: [
+      {
+        label: "Springer Article",
+        url: "https://link.springer.com/article/10.1007/s00779-022-01690-0"
+      },
+      {
+        label: "DOI",
+        url: "https://doi.org/10.1007/s00779-022-01690-0"
+      }
+    ]
   }
+
 ];
 
 export const allCategories = Array.from(
